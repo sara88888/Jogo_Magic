@@ -26,12 +26,12 @@
                     CorCustoTerreno = "Khaki";
                     break;
                 case 2:
-                    CorCarta = "DogderBlue";
+                    CorCarta = "Blue";
                     CorCustoTerreno = "LightBlue";
                     break;
                 case 3:
                     CorCarta = "Black";
-                    CorCustoTerreno = "Tan";
+                    CorCustoTerreno = "BurlyWood";
                     break;
                 case 4:
                     CorCarta = "Red";

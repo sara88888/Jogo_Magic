@@ -41,7 +41,7 @@
                     NomeCarta = "M O N T A N H A";
                     break;
                 case 5:
-                    CorCarta = "Green";
+                    CorCarta = "ForestGreen";
                     CorTerreno = "PaleGreen";
                     NomeCarta = "F L O R E S T A";
                     break;
