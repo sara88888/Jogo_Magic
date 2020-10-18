@@ -125,8 +125,9 @@
             this.tsm.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.baralhoTSM});
             this.tsm.Location = new System.Drawing.Point(0, 0);
+            this.tsm.MdiWindowListItem = this.baralhoTSM;
             this.tsm.Name = "tsm";
-            this.tsm.Size = new System.Drawing.Size(1888, 32);
+            this.tsm.Size = new System.Drawing.Size(1838, 31);
             this.tsm.TabIndex = 1;
             this.tsm.Text = "menuStrip1";
             // 
@@ -158,7 +159,6 @@
             this.carta1TSM.Name = "carta1TSM";
             this.carta1TSM.Size = new System.Drawing.Size(252, 30);
             this.carta1TSM.Text = "Carta1";
-            this.carta1TSM.Click += new System.EventHandler(this.carta1TSM_Click);
             // 
             // criatura1TSM
             // 
@@ -169,26 +169,27 @@
             this.criatura1TSM.Name = "criatura1TSM";
             this.criatura1TSM.Size = new System.Drawing.Size(256, 30);
             this.criatura1TSM.Text = "Criatura";
-            this.criatura1TSM.Click += new System.EventHandler(this.criatura1TSM_Click);
             // 
             // elfo1TSM
             // 
             this.elfo1TSM.Name = "elfo1TSM";
-            this.elfo1TSM.Size = new System.Drawing.Size(252, 30);
+            this.elfo1TSM.Size = new System.Drawing.Size(200, 30);
             this.elfo1TSM.Text = "Elfo";
             this.elfo1TSM.Click += new System.EventHandler(this.elfo1TSM_Click);
             // 
             // guerreiro1TSM
             // 
             this.guerreiro1TSM.Name = "guerreiro1TSM";
-            this.guerreiro1TSM.Size = new System.Drawing.Size(252, 30);
+            this.guerreiro1TSM.Size = new System.Drawing.Size(200, 30);
             this.guerreiro1TSM.Text = "Guerreiro";
+            this.guerreiro1TSM.Click += new System.EventHandler(this.guerreiro1TSM_Click);
             // 
             // tritao1TSM
             // 
             this.tritao1TSM.Name = "tritao1TSM";
-            this.tritao1TSM.Size = new System.Drawing.Size(252, 30);
+            this.tritao1TSM.Size = new System.Drawing.Size(200, 30);
             this.tritao1TSM.Text = "Tritão";
+            this.tritao1TSM.Click += new System.EventHandler(this.tritao1TSM_Click);
             // 
             // artefacto1TSM
             // 
@@ -204,18 +205,21 @@
             this.elixir1TSM.Name = "elixir1TSM";
             this.elixir1TSM.Size = new System.Drawing.Size(154, 30);
             this.elixir1TSM.Text = "Elixir";
+            this.elixir1TSM.Click += new System.EventHandler(this.elixir1TSM_Click);
             // 
             // sorte1TSM
             // 
             this.sorte1TSM.Name = "sorte1TSM";
             this.sorte1TSM.Size = new System.Drawing.Size(154, 30);
             this.sorte1TSM.Text = "Sorte";
+            this.sorte1TSM.Click += new System.EventHandler(this.sorte1TSM_Click);
             // 
             // encantamento1TSM
             // 
             this.encantamento1TSM.Name = "encantamento1TSM";
             this.encantamento1TSM.Size = new System.Drawing.Size(256, 30);
             this.encantamento1TSM.Text = "Encantamento";
+            this.encantamento1TSM.Click += new System.EventHandler(this.encantamento1TSM_Click);
             // 
             // terreno1TSM
             // 
@@ -229,12 +233,14 @@
             this.magica1TSM.Name = "magica1TSM";
             this.magica1TSM.Size = new System.Drawing.Size(256, 30);
             this.magica1TSM.Text = "Mágica";
+            this.magica1TSM.Click += new System.EventHandler(this.magica1TSM_Click);
             // 
             // feitico1TSM
             // 
             this.feitico1TSM.Name = "feitico1TSM";
             this.feitico1TSM.Size = new System.Drawing.Size(256, 30);
             this.feitico1TSM.Text = "Feitiço";
+            this.feitico1TSM.Click += new System.EventHandler(this.feitico1TSM_Click);
             // 
             // carta2TSM
             // 
@@ -264,18 +270,21 @@
             this.elfo2TSM.Name = "elfo2TSM";
             this.elfo2TSM.Size = new System.Drawing.Size(200, 30);
             this.elfo2TSM.Text = "Elfo";
+            this.elfo2TSM.Click += new System.EventHandler(this.elfo2TSM_Click);
             // 
             // guerreiro2TSM
             // 
             this.guerreiro2TSM.Name = "guerreiro2TSM";
             this.guerreiro2TSM.Size = new System.Drawing.Size(200, 30);
             this.guerreiro2TSM.Text = "Guerreiro";
+            this.guerreiro2TSM.Click += new System.EventHandler(this.guerreiro2TSM_Click);
             // 
             // tritao2TSM
             // 
             this.tritao2TSM.Name = "tritao2TSM";
             this.tritao2TSM.Size = new System.Drawing.Size(200, 30);
             this.tritao2TSM.Text = "Tritão";
+            this.tritao2TSM.Click += new System.EventHandler(this.tritao2TSM_Click);
             // 
             // artefacto2TSM
             // 
@@ -291,36 +300,42 @@
             this.elixir2TSM.Name = "elixir2TSM";
             this.elixir2TSM.Size = new System.Drawing.Size(154, 30);
             this.elixir2TSM.Text = "Elixir";
+            this.elixir2TSM.Click += new System.EventHandler(this.elixir2TSM_Click);
             // 
             // sorte2TSM
             // 
             this.sorte2TSM.Name = "sorte2TSM";
             this.sorte2TSM.Size = new System.Drawing.Size(154, 30);
             this.sorte2TSM.Text = "Sorte";
+            this.sorte2TSM.Click += new System.EventHandler(this.sorte2TSM_Click);
             // 
             // encantamento2TSM
             // 
             this.encantamento2TSM.Name = "encantamento2TSM";
             this.encantamento2TSM.Size = new System.Drawing.Size(256, 30);
             this.encantamento2TSM.Text = "Encantamento";
+            this.encantamento2TSM.Click += new System.EventHandler(this.encantamento2TSM_Click);
             // 
             // terreno2TSM
             // 
             this.terreno2TSM.Name = "terreno2TSM";
             this.terreno2TSM.Size = new System.Drawing.Size(256, 30);
             this.terreno2TSM.Text = "Terreno";
+            this.terreno2TSM.Click += new System.EventHandler(this.terreno2TSM_Click);
             // 
             // magica2TSM
             // 
             this.magica2TSM.Name = "magica2TSM";
             this.magica2TSM.Size = new System.Drawing.Size(256, 30);
             this.magica2TSM.Text = "Mágica";
+            this.magica2TSM.Click += new System.EventHandler(this.magica2TSM_Click);
             // 
             // feitico2TSM
             // 
             this.feitico2TSM.Name = "feitico2TSM";
             this.feitico2TSM.Size = new System.Drawing.Size(256, 30);
             this.feitico2TSM.Text = "Feitiço";
+            this.feitico2TSM.Click += new System.EventHandler(this.feitico2TSM_Click);
             // 
             // carta3TSM
             // 
@@ -350,18 +365,21 @@
             this.elfo3TSM.Name = "elfo3TSM";
             this.elfo3TSM.Size = new System.Drawing.Size(200, 30);
             this.elfo3TSM.Text = "Elfo";
+            this.elfo3TSM.Click += new System.EventHandler(this.elfo3TSM_Click);
             // 
             // guerreiro3TSM
             // 
             this.guerreiro3TSM.Name = "guerreiro3TSM";
             this.guerreiro3TSM.Size = new System.Drawing.Size(200, 30);
             this.guerreiro3TSM.Text = "Guerreiro";
+            this.guerreiro3TSM.Click += new System.EventHandler(this.guerreiro3TSM_Click);
             // 
             // tritao3TSM
             // 
             this.tritao3TSM.Name = "tritao3TSM";
             this.tritao3TSM.Size = new System.Drawing.Size(200, 30);
             this.tritao3TSM.Text = "Tritão";
+            this.tritao3TSM.Click += new System.EventHandler(this.tritao3TSM_Click);
             // 
             // artefacto3TSM
             // 
@@ -377,36 +395,42 @@
             this.elixir3TSM.Name = "elixir3TSM";
             this.elixir3TSM.Size = new System.Drawing.Size(154, 30);
             this.elixir3TSM.Text = "Elixir";
+            this.elixir3TSM.Click += new System.EventHandler(this.elixir3TSM_Click);
             // 
             // sorte3TSM
             // 
             this.sorte3TSM.Name = "sorte3TSM";
             this.sorte3TSM.Size = new System.Drawing.Size(154, 30);
             this.sorte3TSM.Text = "Sorte";
+            this.sorte3TSM.Click += new System.EventHandler(this.sorte3TSM_Click);
             // 
             // encantamento3TSM
             // 
             this.encantamento3TSM.Name = "encantamento3TSM";
             this.encantamento3TSM.Size = new System.Drawing.Size(256, 30);
             this.encantamento3TSM.Text = "Encantamento";
+            this.encantamento3TSM.Click += new System.EventHandler(this.encantamento3TSM_Click);
             // 
             // terreno3TSM
             // 
             this.terreno3TSM.Name = "terreno3TSM";
             this.terreno3TSM.Size = new System.Drawing.Size(256, 30);
             this.terreno3TSM.Text = "Terreno";
+            this.terreno3TSM.Click += new System.EventHandler(this.terreno3TSM_Click);
             // 
             // magica3TSM
             // 
             this.magica3TSM.Name = "magica3TSM";
             this.magica3TSM.Size = new System.Drawing.Size(256, 30);
             this.magica3TSM.Text = "Mágica";
+            this.magica3TSM.Click += new System.EventHandler(this.magica3TSM_Click);
             // 
             // feitico3TSM
             // 
             this.feitico3TSM.Name = "feitico3TSM";
             this.feitico3TSM.Size = new System.Drawing.Size(256, 30);
             this.feitico3TSM.Text = "Feitiço";
+            this.feitico3TSM.Click += new System.EventHandler(this.feitico3TSM_Click);
             // 
             // carta4TSM
             // 
@@ -436,18 +460,21 @@
             this.elfo4TSM.Name = "elfo4TSM";
             this.elfo4TSM.Size = new System.Drawing.Size(200, 30);
             this.elfo4TSM.Text = "Elfo";
+            this.elfo4TSM.Click += new System.EventHandler(this.elfo4TSM_Click);
             // 
             // guerreiro4TSM
             // 
             this.guerreiro4TSM.Name = "guerreiro4TSM";
             this.guerreiro4TSM.Size = new System.Drawing.Size(200, 30);
             this.guerreiro4TSM.Text = "Guerreiro";
+            this.guerreiro4TSM.Click += new System.EventHandler(this.guerreiro4TSM_Click);
             // 
             // tritao4TSM
             // 
             this.tritao4TSM.Name = "tritao4TSM";
             this.tritao4TSM.Size = new System.Drawing.Size(200, 30);
             this.tritao4TSM.Text = "Tritão";
+            this.tritao4TSM.Click += new System.EventHandler(this.tritao4TSM_Click);
             // 
             // artefacto4TSM
             // 
@@ -463,36 +490,42 @@
             this.elixir4TSM.Name = "elixir4TSM";
             this.elixir4TSM.Size = new System.Drawing.Size(154, 30);
             this.elixir4TSM.Text = "Elixir";
+            this.elixir4TSM.Click += new System.EventHandler(this.elixir4TSM_Click);
             // 
             // sorte4TSM
             // 
             this.sorte4TSM.Name = "sorte4TSM";
             this.sorte4TSM.Size = new System.Drawing.Size(154, 30);
             this.sorte4TSM.Text = "Sorte";
+            this.sorte4TSM.Click += new System.EventHandler(this.sorte4TSM_Click);
             // 
             // encantamento4TSM
             // 
             this.encantamento4TSM.Name = "encantamento4TSM";
             this.encantamento4TSM.Size = new System.Drawing.Size(256, 30);
             this.encantamento4TSM.Text = "Encantamento";
+            this.encantamento4TSM.Click += new System.EventHandler(this.encantamento4TSM_Click);
             // 
             // terreno4TSM
             // 
             this.terreno4TSM.Name = "terreno4TSM";
             this.terreno4TSM.Size = new System.Drawing.Size(256, 30);
             this.terreno4TSM.Text = "Terreno";
+            this.terreno4TSM.Click += new System.EventHandler(this.terreno4TSM_Click);
             // 
             // magica4TSM
             // 
             this.magica4TSM.Name = "magica4TSM";
             this.magica4TSM.Size = new System.Drawing.Size(256, 30);
             this.magica4TSM.Text = "Mágica";
+            this.magica4TSM.Click += new System.EventHandler(this.magica4TSM_Click);
             // 
             // feitico4TSM
             // 
             this.feitico4TSM.Name = "feitico4TSM";
             this.feitico4TSM.Size = new System.Drawing.Size(256, 30);
             this.feitico4TSM.Text = "Feitiço";
+            this.feitico4TSM.Click += new System.EventHandler(this.feitico4TSM_Click);
             // 
             // carta5TSM
             // 
@@ -522,18 +555,21 @@
             this.elfo5TSM.Name = "elfo5TSM";
             this.elfo5TSM.Size = new System.Drawing.Size(200, 30);
             this.elfo5TSM.Text = "Elfo";
+            this.elfo5TSM.Click += new System.EventHandler(this.elfo5TSM_Click);
             // 
             // guerreiro5TSM
             // 
             this.guerreiro5TSM.Name = "guerreiro5TSM";
             this.guerreiro5TSM.Size = new System.Drawing.Size(200, 30);
             this.guerreiro5TSM.Text = "Guerreiro";
+            this.guerreiro5TSM.Click += new System.EventHandler(this.guerreiro5TSM_Click);
             // 
             // tritao5TSM
             // 
             this.tritao5TSM.Name = "tritao5TSM";
             this.tritao5TSM.Size = new System.Drawing.Size(200, 30);
             this.tritao5TSM.Text = "Tritão";
+            this.tritao5TSM.Click += new System.EventHandler(this.tritao5TSM_Click);
             // 
             // artefacto5TSM
             // 
@@ -549,36 +585,42 @@
             this.elixir5TSM.Name = "elixir5TSM";
             this.elixir5TSM.Size = new System.Drawing.Size(154, 30);
             this.elixir5TSM.Text = "Elixir";
+            this.elixir5TSM.Click += new System.EventHandler(this.elixir5TSM_Click);
             // 
             // sorte5TSM
             // 
             this.sorte5TSM.Name = "sorte5TSM";
             this.sorte5TSM.Size = new System.Drawing.Size(154, 30);
             this.sorte5TSM.Text = "Sorte";
+            this.sorte5TSM.Click += new System.EventHandler(this.sorte5TSM_Click);
             // 
             // encantamento5TSM
             // 
             this.encantamento5TSM.Name = "encantamento5TSM";
             this.encantamento5TSM.Size = new System.Drawing.Size(256, 30);
             this.encantamento5TSM.Text = "Encantamento";
+            this.encantamento5TSM.Click += new System.EventHandler(this.encantamento5TSM_Click);
             // 
             // terreno5TSM
             // 
             this.terreno5TSM.Name = "terreno5TSM";
             this.terreno5TSM.Size = new System.Drawing.Size(256, 30);
             this.terreno5TSM.Text = "Terreno";
+            this.terreno5TSM.Click += new System.EventHandler(this.terreno5TSM_Click);
             // 
             // magica5TSM
             // 
             this.magica5TSM.Name = "magica5TSM";
             this.magica5TSM.Size = new System.Drawing.Size(256, 30);
             this.magica5TSM.Text = "Mágica";
+            this.magica5TSM.Click += new System.EventHandler(this.magica5TSM_Click);
             // 
             // feitico5TSM
             // 
             this.feitico5TSM.Name = "feitico5TSM";
             this.feitico5TSM.Size = new System.Drawing.Size(256, 30);
             this.feitico5TSM.Text = "Feitiço";
+            this.feitico5TSM.Click += new System.EventHandler(this.feitico5TSM_Click);
             // 
             // carta6TSM
             // 
@@ -608,18 +650,21 @@
             this.elfo6TSM.Name = "elfo6TSM";
             this.elfo6TSM.Size = new System.Drawing.Size(200, 30);
             this.elfo6TSM.Text = "Elfo";
+            this.elfo6TSM.Click += new System.EventHandler(this.elfo6TSM_Click);
             // 
             // guerreiro6TSM
             // 
             this.guerreiro6TSM.Name = "guerreiro6TSM";
             this.guerreiro6TSM.Size = new System.Drawing.Size(200, 30);
             this.guerreiro6TSM.Text = "Guerreiro";
+            this.guerreiro6TSM.Click += new System.EventHandler(this.guerreiro6TSM_Click);
             // 
             // tritao6TSM
             // 
             this.tritao6TSM.Name = "tritao6TSM";
             this.tritao6TSM.Size = new System.Drawing.Size(200, 30);
             this.tritao6TSM.Text = "Tritão";
+            this.tritao6TSM.Click += new System.EventHandler(this.tritao6TSM_Click);
             // 
             // artefacto6TSM
             // 
@@ -633,38 +678,44 @@
             // elixir6TSM
             // 
             this.elixir6TSM.Name = "elixir6TSM";
-            this.elixir6TSM.Size = new System.Drawing.Size(154, 30);
+            this.elixir6TSM.Size = new System.Drawing.Size(252, 30);
             this.elixir6TSM.Text = "Elixir";
+            this.elixir6TSM.Click += new System.EventHandler(this.elixir6TSM_Click);
             // 
             // sorte6TSM
             // 
             this.sorte6TSM.Name = "sorte6TSM";
-            this.sorte6TSM.Size = new System.Drawing.Size(154, 30);
+            this.sorte6TSM.Size = new System.Drawing.Size(252, 30);
             this.sorte6TSM.Text = "Sorte";
+            this.sorte6TSM.Click += new System.EventHandler(this.sorte6TSM_Click);
             // 
             // encantamento6TSM
             // 
             this.encantamento6TSM.Name = "encantamento6TSM";
             this.encantamento6TSM.Size = new System.Drawing.Size(256, 30);
             this.encantamento6TSM.Text = "Encantamento";
+            this.encantamento6TSM.Click += new System.EventHandler(this.encantamento6TSM_Click);
             // 
             // terreno6TSM
             // 
             this.terreno6TSM.Name = "terreno6TSM";
             this.terreno6TSM.Size = new System.Drawing.Size(256, 30);
             this.terreno6TSM.Text = "Terreno";
+            this.terreno6TSM.Click += new System.EventHandler(this.terreno6TSM_Click);
             // 
             // magica6TSM
             // 
             this.magica6TSM.Name = "magica6TSM";
             this.magica6TSM.Size = new System.Drawing.Size(256, 30);
             this.magica6TSM.Text = "Mágica";
+            this.magica6TSM.Click += new System.EventHandler(this.magica6TSM_Click);
             // 
             // feitico6TSM
             // 
             this.feitico6TSM.Name = "feitico6TSM";
             this.feitico6TSM.Size = new System.Drawing.Size(256, 30);
             this.feitico6TSM.Text = "Feitiço";
+            this.feitico6TSM.Click += new System.EventHandler(this.feitico6TSM_Click);
             // 
             // carta7TSM
             // 
@@ -692,20 +743,23 @@
             // elfo7TSM
             // 
             this.elfo7TSM.Name = "elfo7TSM";
-            this.elfo7TSM.Size = new System.Drawing.Size(200, 30);
+            this.elfo7TSM.Size = new System.Drawing.Size(252, 30);
             this.elfo7TSM.Text = "Elfo";
+            this.elfo7TSM.Click += new System.EventHandler(this.elfo7TSM_Click);
             // 
             // guerreiro7TSM
             // 
             this.guerreiro7TSM.Name = "guerreiro7TSM";
-            this.guerreiro7TSM.Size = new System.Drawing.Size(200, 30);
+            this.guerreiro7TSM.Size = new System.Drawing.Size(252, 30);
             this.guerreiro7TSM.Text = "Guerreiro";
+            this.guerreiro7TSM.Click += new System.EventHandler(this.guerreiro7TSM_Click);
             // 
             // tritao7TSM
             // 
             this.tritao7TSM.Name = "tritao7TSM";
-            this.tritao7TSM.Size = new System.Drawing.Size(200, 30);
+            this.tritao7TSM.Size = new System.Drawing.Size(252, 30);
             this.tritao7TSM.Text = "Tritão";
+            this.tritao7TSM.Click += new System.EventHandler(this.tritao7TSM_Click);
             // 
             // artefacto7TSM
             // 
@@ -719,38 +773,44 @@
             // elixir7TSM
             // 
             this.elixir7TSM.Name = "elixir7TSM";
-            this.elixir7TSM.Size = new System.Drawing.Size(154, 30);
+            this.elixir7TSM.Size = new System.Drawing.Size(252, 30);
             this.elixir7TSM.Text = "Elixir";
+            this.elixir7TSM.Click += new System.EventHandler(this.elixir7TSM_Click);
             // 
             // sorte7TSM
             // 
             this.sorte7TSM.Name = "sorte7TSM";
-            this.sorte7TSM.Size = new System.Drawing.Size(154, 30);
+            this.sorte7TSM.Size = new System.Drawing.Size(252, 30);
             this.sorte7TSM.Text = "Sorte";
+            this.sorte7TSM.Click += new System.EventHandler(this.sorte7TSM_Click);
             // 
             // encantamento7TSM
             // 
             this.encantamento7TSM.Name = "encantamento7TSM";
             this.encantamento7TSM.Size = new System.Drawing.Size(256, 30);
             this.encantamento7TSM.Text = "Encantamento";
+            this.encantamento7TSM.Click += new System.EventHandler(this.encantamento7TSM_Click);
             // 
             // terreno7TSM
             // 
             this.terreno7TSM.Name = "terreno7TSM";
             this.terreno7TSM.Size = new System.Drawing.Size(256, 30);
             this.terreno7TSM.Text = "Terreno";
+            this.terreno7TSM.Click += new System.EventHandler(this.terreno7TSM_Click);
             // 
             // magica7TSM
             // 
             this.magica7TSM.Name = "magica7TSM";
             this.magica7TSM.Size = new System.Drawing.Size(256, 30);
             this.magica7TSM.Text = "Mágica";
+            this.magica7TSM.Click += new System.EventHandler(this.magica7TSM_Click);
             // 
             // feitico7TSM
             // 
             this.feitico7TSM.Name = "feitico7TSM";
             this.feitico7TSM.Size = new System.Drawing.Size(256, 30);
             this.feitico7TSM.Text = "Feitiço";
+            this.feitico7TSM.Click += new System.EventHandler(this.feitico7TSM_Click);
             // 
             // sairTSM
             // 
@@ -761,10 +821,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 23F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(1888, 694);
+            this.ClientSize = new System.Drawing.Size(1838, 424);
             this.ControlBox = false;
             this.Controls.Add(this.tsm);
             this.Font = new System.Drawing.Font("Lucida Handwriting", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -772,8 +832,8 @@
             this.IsMdiContainer = true;
             this.Location = new System.Drawing.Point(1, 150);
             this.MainMenuStrip = this.tsm;
-            this.MaximumSize = new System.Drawing.Size(1910, 750);
-            this.MinimumSize = new System.Drawing.Size(905, 375);
+            this.MaximumSize = new System.Drawing.Size(1860, 480);
+            this.MinimumSize = new System.Drawing.Size(1860, 480);
             this.Name = "Form1";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

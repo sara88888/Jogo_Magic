@@ -19,7 +19,7 @@ namespace Jogo_Magic
             NomeCarta = "Contra-Magia";
             NovaCarta();
             CustoTerreno = 4;
-            Efeito1 = "Anula todos os efeitos produzidos neste terreno durante o turno do adversário";
+            Efeito1 = "Anula todos os efeitos produzidos neste mesmo terreno durante o turno do adversário";
         }
 
         public override void NovaCarta()

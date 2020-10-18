@@ -18,7 +18,7 @@ namespace Jogo_Magic
             NomeCarta="Mágica Instantânea";
             NovaCarta();
             CustoGeral = 8;
-            Efeito1 = "Metade do deck do adversário sai de jogo";
+            Efeito1 = "Metade do grimório do adversário sai de jogo";
         }
 
         public override void NovaCarta()

@@ -13,7 +13,7 @@
 
         public Encantamento() : base("Encantamento")
         {
-            NomeCarta = string.Empty;
+            NomeCarta = "Sonho";
             NovaCarta();
             CustoGeral = 4;
             Efeito1="Soma 2 pontos atacantes a qualquer criatura do mesmo terreno descartada";
